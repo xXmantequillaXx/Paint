@@ -49,8 +49,8 @@ namespace Paint222
                         point = e.GetPosition(image);
                         Save = Paint.Clone();
                         break;
-                    case 2:
-                        Paint.DrawLineAa((int)point.X, (int)point.Y, (int)P.X, (int)P.Y, color, thickness);
+                    case 2: 
+                          Paint.DrawLineAa((int)point.X, (int)point.Y, (int)P.X, (int)P.Y, color, thickness);
                         break;
 
 
